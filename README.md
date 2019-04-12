@@ -1,2 +1,7 @@
 # machine_learning_tool
 Using this code, one can do all the machine learning steps at one place i.e., get a summary of all the variables such as minimum, maximum, percentiles, missing values, etc for numerical, missing and unique values for categorical and a correlation table; plots to see the distribution; data cleaning to treat missing values and outliers; variable transformation tab to transform the variables by exponential, squares, square root, etc, training tab wherein you can choose the target variable and predictor variable and choose from a list of algorithms to train the dataset, testing tab to predict the values, segmentation tab to do clustering
+
+1. Input tab- You input a .csv file here
+2. Explore tab- Here you can see different statistical values for the file input in the 'Input' tab. For numerical columns, you can see the maximum, minimum, skewness, different percentile values, etc and can detect outliers in a much more simple way. For categorical variables you can see the number of missing and unique values for each categorical column and a correlation table to see the correlation between different columns
+3. Plot tab- You can choose between histogram, scatterplot, correlation plot and boxplot to visualise the data which has been input in the 'Input' tab.
+4. Data Cleaning tab- wait for 5-10 seconds. Can clean a column one-by-one or everything at once. For treating missing values, the option for numerical variables include Mean, Median, Mode and zero value replacement and for categorical it is mode. 
